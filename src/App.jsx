@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Settings from "./components/Settings";
-import { FeatureFlagProvider } from "./FeatureflagContext";
+import Dashboard from "./components/Dashboard.jsx";
+import Settings from "./components/Settings.jsx";
+import { FeatureFlagProvider } from "./FeatureflagContext.jsx";
 
 function App() {
   return (
